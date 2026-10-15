@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rumakanto Roy | Textile Engineering Student</title>
+  <meta name="description" content="Portfolio of Rumakanto Roy, Textile Engineering student at DUET. Wastewater treatment, adsorption, slag and environmental chemistry.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">Rumakanto Roy</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Research</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#skills">Skills</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="kicker">Textile Engineering Student, DUET</p>
+        <h1>Turning textile wastewater into clean water.</h1>
+        <p class="lead">I am Rumakanto Roy, a Textile Engineering student interested in wastewater treatment, adsorption, slag, environmental chemistry and other textile related topics.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">See my research</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <!-- A normal image: the full picture always shows, on laptop and phone -->
+      <img class="hero-img" src="photo.jpg" alt="Rumakanto Roy in the lab">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <h2>About me</h2>
+      <div class="two-col">
+        <div>
+          <p>I am a B.Sc. student in Textile Engineering at Dhaka University of Engineering &amp; Technology (DUET), Gazipur. My research interests are wastewater treatment, adsorption, slag and environmental chemistry.</p>
+          <p>I have taught textile engineering students, co-authored a journal paper and a conference paper (both submitted), and won poster presentation competitions at national level.</p>
+        </div>
+        <ul class="facts">
+          <li><span>University</span> DUET, Gazipur, Bangladesh</li>
+          <li><span>Research interest</span> Wastewater treatment, adsorption, slag</li>
+          <li><span>Languages</span> Bangla, English</li>
+        </ul>
+      </div>
+      <h3 class="sub">Experience and leadership</h3>
+      <ul class="list">
+        <li><b>Teacher</b>, Graphene Textile Coaching Home (2024–2025)</li>
+        <li><b>Research Secretary</b>, DUET Textile Career &amp; Research Club (2025–Present)</li>
+        <li><b>Assistant Research Secretary</b>, DUET Textile Career &amp; Research Club (2024–25)</li>
+        <li><b>Assistant Head of National Outreach</b>, DUET Blood Donation Society, Swajan (2025–Present)</li>
+        <li><b>Campus Ambassador</b>, Color Science Academy and Textile Engineers Association (2024–25)</li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal">
+      <h2>Education</h2>
+      <ol class="timeline">
+        <li><time>Ongoing</time><h3>B.Sc. in Textile Engineering</h3><p>Dhaka University of Engineering &amp; Technology (DUET), Gazipur. Last semester GPA 3.38 / 4.00.</p></li>
+        <li><time>2022</time><h3>Diploma in Textile Engineering</h3><p>Textile Institute, Dinajpur. CGPA 3.91 / 4.00.</p></li>
+        <li><time>2018</time><h3>Secondary School Certificate (SSC)</h3><p>Pirganj Pilot High School, Thakurgaon. GPA 5.00 / 5.00.</p></li>
+      </ol>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="projects" class="section reveal">
+      <h2>Research</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Bioactive nanofibers for wound dressing</h3>
+          <p>Electrospun PVA nanofibers with cellulose nanocrystals and Dalbergia reniformis leaf extract for wound healing. Journal and conference papers submitted.</p>
+          <p class="tags">Electrospinning · Nanofibers · Biomaterials</p>
+        </article>
+        <article class="card">
+          <h3>Textile wastewater treatment</h3>
+          <p>My main research focus: removing dyes from textile effluent by adsorption, including the use of industrial slag, and the environmental chemistry behind it.</p>
+          <p class="tags">Adsorption · Slag · Environmental chemistry</p>
+        </article>
+        <article class="card">
+          <h3>Poster research competitions</h3>
+          <p>Presented research posters at national inter-university competitions and won two championships and one second place.</p>
+          <p class="tags">Poster presentation · Communication</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section reveal">
+      <h2>Gallery</h2>
+      <p class="intro">Photos from my lab work and events. Tap a photo to see it larger.</p>
+      <!-- Photos are listed in script.js (the "photos" list at the top of the Gallery part) -->
+      <div class="gallery" id="gallery"></div>
+      <button class="btn" id="galMore" type="button" aria-expanded="false" hidden>See more</button>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <div class="two-col">
+        <div>
+          <h3>Core skills</h3>
+          <ul class="chips"><li>Communication and technical writing</li><li>Problem solving and innovation</li><li>Critical thinking and research</li><li>Leadership and teamwork</li><li>Colour science</li></ul>
+
+          <h3 class="sub">Laboratory skills</h3>
+          <ul class="chips">
+            <li>Tabletop centrifuge machine</li>
+            <li>Homogenizer machine</li>
+            <li>Ultrasonic homogenizer machine</li>
+            <li>Electrospinning machine</li>
+            <li>Composite moulding machine</li>
+            <li>Dyeing recipe preparation</li>
+          </ul>
+
+          <h3 class="sub">Software and computer skills</h3>
+          <ul class="chips">
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>ChemDraw</li>
+            <li>Python (basic)</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft PowerPoint</li>
+            <li>Mendeley</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Certifications</h3>
+          <ul class="list small">
+            <li>Basic Programming with Python, EDGE-CSE DUET (2026)</li>
+            <li>Introduction to MS Excel, Simplilearn SkillUp (2026)</li>
+            <li>Gemini Certified Student, Google for Education (2026)</li>
+            <li>Key Components of a Research Article, Wiley Researcher Academy (2025)</li>
+            <li>Complete Research Training, BARTC (2025)</li>
+            <li>Fundamentals of Color Science, Color Science Academy (2025)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section reveal">
+      <h2>Publications and presentations</h2>
+      <ol class="pubs" id="pubList">
+        <li><p class="cite">Likunuzzaman, Md. Harun-Or-Rashid, <b>Rumakanto Roy</b>, Joy Roy Shimon, Mohammad Abul Hasan Shibly, Shahjalal Khandaker. <em>Synergistic Integration of Cellulose Nanocrystals and Dalbergia reniformis Leaves Extract in Electrospun PVA Nanofibers for Bioactive Wound Dressing Application.</em> Results in Engineering. <span class="badge">Submitted</span></p></li>
+        <li><p class="cite">Likunuzzaman, Md. Harun-Or-Rashid, <b>Rumakanto Roy</b>, Joy Roy Shimon, Mohammad Abul Hasan Shibly, Shahjalal Khandaker. <em>Bioactive Electrospun PVA/CNC Nanofibrous Mats Incorporating Dalbergia reniformis Leaves Extract for Wound Healing Applications.</em> International Conference on Engineering and Frontier Technologies 2026. <span class="badge">Submitted</span></p></li>
+        <li hidden><p class="cite"><b>Champion</b>, Poster Presentation, NATURE FEST 2025, NCI Jahangirnagar Student Branch.</p></li>
+        <li hidden><p class="cite"><b>Champion</b>, Poster Presentation, Textile Day 2.0, BUBT Textile Club.</p></li>
+        <li hidden><p class="cite"><b>2nd position</b>, Poster Presentation, IEEE BrainFest 2025, IEEE BUP Student Branch.</p></li>
+        <li hidden><p class="cite">Poster Presentation, Texverse 2025 Inter-University Textile Innovation and Research Competition, BUTEX Science Club.</p></li>
+      </ol>
+      <button class="btn" id="moreBtn" type="button" aria-expanded="false">See more</button>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <h2>Contact</h2>
+      <div class="two-col">
+        <div>
+          <p>I am open to research collaborations, internships and questions about my work.</p>
+          <p>Email: <a href="mailto:royrumakanto@gmail.com">royrumakanto@gmail.com</a></p>
+          <p>Contact number: <a href="tel:+8801521785793">+880 1521-785793</a></p>
+          <p>Department of Textile Engineering, DUET, Gazipur</p>
+          <p class="links"><a href="https://www.linkedin.com/in/rumakanto-roy/" target="_blank" rel="noopener">LinkedIn</a> <a href="https://www.researchgate.net/profile/Rumakanto-Roy" target="_blank" rel="noopener">ResearchGate</a> <a href="https://orcid.org/0009-0003-3031-2275" target="_blank" rel="noopener">ORCID</a></p>
+        </div>
+        <form id="contactForm">
+          <label>Your name <input type="text" id="cName" required></label>
+          <label>Message <textarea id="cMsg" rows="4" required></textarea></label>
+          <button class="btn primary" type="submit">Send email</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul class="social" aria-label="Profiles">
+      <li>
+        <a href="https://www.linkedin.com/in/rumakanto-roy/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#0A66C2"/><circle cx="10.2" cy="9.9" r="1.9" fill="#fff"/><rect x="8.5" y="13.2" width="3.4" height="10.2" fill="#fff"/><path fill="#fff" d="M14.3 13.2h3.2v1.4c.5-.9 1.7-1.7 3.4-1.7 3.3 0 3.9 2.100 3.900 4.900v5.600h-3.400v-5c0-1.200 0-2.700-1.700-2.700s-1.900 1.300-1.900 2.600v5.100h-3.500z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.researchgate.net/profile/Rumakanto-Roy" target="_blank" rel="noopener" aria-label="ResearchGate profile" title="ResearchGate">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#00CCBB"/><text x="7.500" y="23" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#fff">R</text><text x="18.500" y="14" font-family="Georgia, serif" font-weight="700" font-size="9" fill="#fff">G</text></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://orcid.org/0009-0003-3031-2275" target="_blank" rel="noopener" aria-label="ORCID profile" title="ORCID">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#A6CE39"/><circle cx="10.600" cy="8.800" r="1.300" fill="#fff"/><rect x="9.300" y="11.800" width="2.600" height="11" fill="#fff"/><path fill="#fff" fill-rule="evenodd" d="M14.200 11.800h4c3.800 0 5.900 2.700 5.900 5.500s-2.200 5.500-5.900 5.500h-4zm2.400 2.200v6.600h1.500c2.400 0 3.500-1.600 3.500-3.300S20.500 14 18.100 14z"/></svg>
+        </a>
+      </li>
+    </ul>
+    <p>© <span id="year"></span> Rumakanto Roy</p>
+  </footer>
+
+  <dialog id="lb"><img alt=""><p id="lbCap"></p><button class="btn" id="lbClose" type="button">Close</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
